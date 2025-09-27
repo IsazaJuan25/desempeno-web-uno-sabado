@@ -1,4 +1,4 @@
-# Actividad Evaluativa: "Gestor de Inventario de Tienda" 📦
+# Actividad Evaluativa: "Gestor de Inventario de Tienda"
 
 ## Objetivo del proyecto
 Desarrollar un simulador para la gestión del inventario de una pequeña tienda, utilizando funciones y lógica de control en JavaScript. A través de este proyecto, aplicarás tu conocimiento sobre la manipulación de variables numéricas, el uso de funciones con parámetros y la creación de un programa interactivo para controlar el stock de productos.

@@ -1,4 +1,4 @@
-# Actividad Evaluativa: "Simulador de Mascota Virtual" 🐾
+# Actividad Evaluativa: "Simulador de Mascota Virtual"
 
 ## Objetivo del proyecto
 Desarrollar un simulador interactivo para cuidar de una mascota virtual, gestionando sus necesidades básicas como el hambre y la felicidad. Mediante este proyecto, reforzarás tu dominio de funciones, lógica condicional y ciclos en JavaScript para crear un programa que reacciona a las acciones del usuario y al paso del tiempo.

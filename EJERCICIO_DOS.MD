@@ -1,4 +1,4 @@
-# Actividad Evaluativa: "Gestor de Héroe RPG" 🛡️
+# Actividad Evaluativa: "Gestor de Héroe RPG"
 
 ## Objetivo del proyecto
 Desarrollar una simulación interactiva para gestionar las estadísticas de un héroe de un juego de rol (RPG) utilizando funciones y lógica de control en JavaScript. A través de este proyecto, demostrarás tu comprensión sobre la declaración y uso de funciones, el manejo de parámetros y la aplicación de estructuras condicionales y ciclos para crear un programa dinámico.

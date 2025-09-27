@@ -1,4 +1,4 @@
-# Actividad Evaluativa: "Mini-App de Control de Gastos" 💸
+# Actividad Evaluativa: "Mini-App de Control de Gastos"
 
 ## Objetivo del proyecto
 Desarrollar una simulación interactiva de una app de finanzas personales utilizando funciones y lógica de control en JavaScript. A través de este proyecto, demostrarás tu comprensión sobre la declaración y uso de funciones, el manejo de parámetros y la aplicación de estructuras condicionales y ciclos para crear un programa dinámico y controlado por el usuario.
