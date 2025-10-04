@@ -67,3 +67,83 @@ let rangoGastos;
             break;
     }
 }
+
+function iniciarApp() {
+    console.log(`Bienvenido a tu App de Control de Gastos, ${nombreUsuario}`);
+    console.log("Usa el menú interactivo para gestionar tus finanzas.");
+    
+    while (true) {
+        const opcion = prompt(`
+ MENÚ DE CONTROL DE GASTOS
+
+Hola ${nombreUsuario}, ¿qué deseas hacer?
+
+1 - Registrar un Ingreso
+2 - Registrar un Gasto  
+3 - Simular una Semana de Gastos
+4 - Ver Diagnóstico Financiero
+5 - Mostrar Balance Actual
+6 - Salir
+
+Ingresa el número de tu opción:`);
+
+        switch (opcion) {
+            case '1':
+                const montoIngreso = Number(prompt("¿Cuánto dinero deseas ingresar?"));
+                if (!isNaN(montoIngreso) && montoIngreso > 0) {
+                    registrarIngreso(montoIngreso);
+                } else {
+                    console.log("Por favor ingrese un monto válido.");
+                }
+                break;
+                
+            case '2':
+                const montoGasto = Number(prompt("¿Cuánto dinero vas a gastar?"));
+                if (!isNaN(montoGasto) && montoGasto > 0) {
+                    registrarGasto(montoGasto);
+                } else {
+                    console.log("Por favor ingrese un monto válido.");
+                }
+                break;
+                
+            case '3':
+                simularSemana();
+                break;
+                
+            case '4':
+                diagnosticoFinanciero();
+                break;
+                
+            case '5':
+                mostrarBalance();
+                break;
+                
+            case '6':
+                console.log(`Hasta luego, ${nombreUsuario}! Gracias por usar la App de Control de Gastos.`);
+                return;
+                
+            default:
+                console.log("Opción no válida. Por favor selecciona una opción del 1 al 6.");
+        }
+        
+        
+        console.log("\n" + "=".repeat(50) + "\n");
+    }
+}
+
+
+console.log("FASE 1: CONFIGURACIÓN INICIAL");
+mostrarBalance();
+
+console.log("FASE 2: TRANSACCIONES BÁSICAS");
+registrarIngreso(500);
+registrarGasto(200);
+registrarGasto(1500);
+mostrarBalance();
+
+console.log("FASE 3: SIMULACIÓN Y DIAGNÓSTICO");
+simularSemana();
+mostrarBalance();
+diagnosticoFinanciero();
+
+iniciarApp();
